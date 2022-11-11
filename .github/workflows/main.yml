@@ -11,5 +11,7 @@ jobs:
    runs-on: ubuntu-latest
 
    steps:
-     - name: 'printin name'
-       run: echo 'Abdo Hathout'
+     - uses: actions/checkout@v3
+
+     - name: "Log In To Docker"
+       run: docker login --username hathout --password dckr_pat_WEA58BUBY8mI1mWq3NgWI46w7ko
