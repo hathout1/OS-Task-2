@@ -8,9 +8,8 @@ on:
 
 jobs:
  build:
-  runs-on: ubuntu-latest
+   runs-on: ubuntu-latest
 
-
-  steps:
-    -name: "printing name"
-     run: echo "Abdo Hathout"
+   steps:
+     - name: 'printin name'
+       run: echo 'Abdo Hathout'
