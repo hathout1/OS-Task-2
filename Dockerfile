@@ -1,9 +1,9 @@
 FROM openjdk
 
-WORKDIR /Hathout
+WORKDIR /Kahlawy
 
-COPY hathout.java .
+COPY kahlawy.java .
 
-RUN javac hathout.java
+RUN javac kahlawy.java
 
-CMD java hathout
+CMD java kahlawy
